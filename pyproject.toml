@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "velgix"
+version = "0.1.0"
+description = "Couteau suisse Python pour la Belgique : jours fériés, codes postaux, TVA, NISS..."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Ton Nom", email = "ton@email.com" }
+]
+license = { text = "MIT" }
+keywords = ["belgique", "belgium", "utilities", "jours-feries", "tva"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/ton-user/velgix"
+Repository = "https://github.com/ton-user/velgix"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
