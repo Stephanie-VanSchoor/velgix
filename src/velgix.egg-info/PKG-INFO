@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: velgix
+Version: 0.1.0
+Summary: Couteau suisse Python pour la Belgique : jours fériés, codes postaux, TVA, NISS...
+Author-email: Ton Nom <ton@email.com>
+License: MIT
+Project-URL: Homepage, https://github.com/ton-user/velgix
+Project-URL: Repository, https://github.com/ton-user/velgix
+Keywords: belgique,belgium,utilities,jours-feries,tva
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"

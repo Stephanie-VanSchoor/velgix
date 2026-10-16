@@ -1,0 +1,8 @@
+pyproject.toml
+src/velgix/__init__.py
+src/velgix/holidays.py
+src/velgix.egg-info/PKG-INFO
+src/velgix.egg-info/SOURCES.txt
+src/velgix.egg-info/dependency_links.txt
+src/velgix.egg-info/requires.txt
+src/velgix.egg-info/top_level.txt
