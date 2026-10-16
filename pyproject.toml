@@ -9,7 +9,7 @@ description = "Couteau suisse Python pour la Belgique : jours fériés, codes po
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-    { name = "Ton Nom", email = "ton@email.com" }
+    { name = "Vanschoor Stephanie", email = "leurquinstephanie@gmail.com" }
 ]
 license = { text = "MIT" }
 keywords = ["belgique", "belgium", "utilities", "jours-feries", "tva"]
