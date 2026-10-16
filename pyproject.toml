@@ -30,8 +30,8 @@ dependencies = []
 dev = ["pytest>=7.0", "build", "twine"]
 
 [project.urls]
-Homepage = "https://github.com/ton-user/velgix"
-Repository = "https://github.com/ton-user/velgix"
+Homepage = "https://github.com/Stephanie-VanSchoor/velgix"
+Repository = "https://github.com/Stephanie-VanSchoor/velgix"
 
 [tool.setuptools.packages.find]
 where = ["src"]
